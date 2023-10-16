@@ -11,3 +11,5 @@ Adapun Rumusan Masalah :
 2. Metode yang dikembangkan harus dapat menghasilkan akurasi yang tinggi, bahkan untuk gambar yang menantang, seperti gambar kuda dan manusia yang sama-sama berwarna coklat dan memiliki bentuk tubuh yang mirip.
 
 3. Metode yang dikembangkan juga harus dapat digunakan secara real-time, sehingga dapat digunakan untuk berbagai macam aplikasi, seperti identifikasi wajah dan pengenalan objek
+
+Project ini merupakan implementasi Convolutional Neural Network (CNN) untuk mengklasifikasikan gambar-gambar kuda dan manusia. Model CNN yang dikembangkan telah dilatih untuk mengenali ciri-ciri visual khusus dari kedua jenis entitas tersebut. Project ini dapat digunakan sebagai dasar untuk memahami konsep dasar machine learning, pengolahan citra, dan klasifikasi dengan menggunakan teknik deep learning. Terdapat dataset yang telah disertakan dan skrip untuk melatih dan mengevaluasi model.
