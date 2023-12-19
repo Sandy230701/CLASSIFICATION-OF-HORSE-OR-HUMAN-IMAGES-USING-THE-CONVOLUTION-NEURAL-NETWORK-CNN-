@@ -9,7 +9,7 @@ model = load_model('model.h5')  # Ganti 'model.h5' dengan nama model yang sesuai
 
 st.title("Deteksi Gambar")
 
-uploaded_file = st.file_uploader("Pilih gambar...", type="jpg")
+uploaded_file = st.file_uploader("Pilih gambar...")
 
 if uploaded_file is not None:
     # Membaca dan menampilkan gambar yang diunggah
@@ -25,9 +25,13 @@ if uploaded_file is not None:
     # Membuat prediksi menggunakan model
     prediction = model.predict(x)
 
-    # Menampilkan hasil prediksi
+    # Menampilkan hasil prediksi dan akurasi
     st.subheader("Hasil Prediksi:")
     if prediction[0] > 0.5:
         st.write("Ini adalah manusia.")
     else:
         st.write("Ini adalah kuda.")
+
+    # Menampilkan akurasi prediksi
+    accuracy = prediction[0] if prediction[0] > 0.5 else 1 - prediction[0]
+    st.write("Akurasi prediksi: ", accuracy )
