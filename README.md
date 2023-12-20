@@ -13,3 +13,8 @@ Adapun Rumusan Masalah :
 3. Metode yang dikembangkan juga harus dapat digunakan secara real-time, sehingga dapat digunakan untuk berbagai macam aplikasi, seperti identifikasi wajah dan pengenalan objek
 
 Project ini merupakan implementasi Convolutional Neural Network (CNN) untuk mengklasifikasikan gambar-gambar kuda dan manusia. Model CNN yang dikembangkan telah dilatih untuk mengenali ciri-ciri visual khusus dari kedua jenis entitas tersebut. Project ini dapat digunakan sebagai dasar untuk memahami konsep dasar machine learning, pengolahan citra, dan klasifikasi dengan menggunakan teknik deep learning. Terdapat dataset yang telah disertakan dan skrip untuk melatih dan mengevaluasi model.
+
+Pemodelan ini sudah disimpan dan kemudian dilakukan deployment menjadi sebuah web app untuk dapat menerapkannya menggunakan data baru berasal dari inputan user. Dapat diakses melalui link dibawah ini :
+
+https://horse-or-humans.streamlit.app/
+
